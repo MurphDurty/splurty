@@ -70,3 +70,5 @@ gem 'bootstrap', '~> 4.3.1'
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.4.3'
 end
+
+gem 'simple_form'
