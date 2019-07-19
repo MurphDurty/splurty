@@ -8,7 +8,7 @@ class QuotesController < ApplicationController
   end
 
   def create
-    Quote.create(quote_params)
+    @quote = Quote.create(quote_params)
     if @quote.invalid?
       flash[:error] = "Could not save the data you entered is invalid."
     end
